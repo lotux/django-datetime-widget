@@ -144,7 +144,7 @@ quoted_options = set([
 
 # to traslate boolean object to javascript
 quoted_bool_options = set([
-    'autoclose',
+#    'autoclose',
     'todayHighlight',
     'showMeridian',
     'clearBtn',

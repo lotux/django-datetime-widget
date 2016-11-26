@@ -144,7 +144,7 @@ quoted_options = set([
 
 # to traslate boolean object to javascript
 quoted_bool_options = set([
-    'autoclose',
+#    'autoclose',
     'todayHighlight',
     'showMeridian',
     'clearBtn',
@@ -224,7 +224,7 @@ class PickerWidgetMixin(object):
         rendered_widget = super(PickerWidgetMixin, self).render(name, value, final_attrs)
 
         #if not set, autoclose have to be true.
-        self.options.setdefault('autoclose', True)
+        #self.options.setdefault('autoclose', True)
 
         # Build javascript options out of python dictionary
         options_list = []
